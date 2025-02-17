@@ -34,6 +34,7 @@ class SentimentStockAI():
         # Returns the list of news titles
         return news_list
     
+
     # Function to get stock data using the yfinance library
     def collect_stock_data(self):
 
@@ -46,6 +47,7 @@ class SentimentStockAI():
         # Returns historical stock data
         return data
     
+
     # Function to analyze the sentiment of a list of news items
     def analyze_sentiment(self, news_list):
 
@@ -164,7 +166,6 @@ class SentimentStockAI():
            
 
             return decision, sentiments, sentiment_scores
-
 
 
 if __name__ == "__main__":
