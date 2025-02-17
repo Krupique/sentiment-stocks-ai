@@ -15,6 +15,7 @@ yfinance = "^0.2.53"
 langchain-core = "^0.3.35"
 langchain-community = "^0.3.17"
 ipykernel = "^6.29.5"
+argparse = "^1.4.0"
 
 
 [build-system]
