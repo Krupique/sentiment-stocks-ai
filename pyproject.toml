@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sentiment-stocks-ai"
+version = "0.1.0"
+description = "Real-time news sentiment analysis paired with stock prices to drive Buy/Hold/Sell decisions using LLMs."
+authors = ["Krupique <krupique@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+newsapi-python = "^0.2.7"
+requests = "^2.32.3"
+numpy = "^2.2.3"
+openai = "^1.63.0"
+yfinance = "^0.2.53"
+langchain-core = "^0.3.35"
+langchain-community = "^0.3.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
